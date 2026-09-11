@@ -1,0 +1,6 @@
+numero = int(input("Digite um valor: "))
+
+resultado = numero / 2
+
+print("Número: ", numero)
+print("Metade: ", resultado)

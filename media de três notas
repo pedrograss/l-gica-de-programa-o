@@ -1,0 +1,10 @@
+primeiraNota = float(input("Digite a primeira nota: "))
+segundaNota = float(input("Digite a segunda nota: "))
+terceiraNota = float(input("Digite a terceira nota: "))
+
+media = (primeiraNota + segundaNota + terceiraNota) / 3
+
+print("Nota 1: ", primeiraNota)
+print("Nota 2: ", segundaNota)
+print("Nota 3: ", terceiraNota)
+print("Média: ", media)

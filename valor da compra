@@ -1,0 +1,7 @@
+
+precoUm = float(input("Digite o preço do produto: "))
+precoDois = float(input("Digite o preço do segundo produto: "))
+precoTres = float(input("Digite o preço do terceiro produto: "))
+
+total = (precoUm + precoDois + precoTres)
+print("Total da compra: ", total)

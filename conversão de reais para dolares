@@ -1,0 +1,7 @@
+reais = float (input("Digite o valor em reais: "))
+dolares = float(input("Digite a cotação do dólar: "))
+
+conversao = (reais * dolares)
+
+print("Reais: ", reais)
+print("Dólar: ", conversao)

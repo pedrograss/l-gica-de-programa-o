@@ -1,0 +1,9 @@
+
+valorA = int(input("Digite o valor da A: "))
+valorB = int(input("Digite o valor de B: "))
+
+valorInvertido_A = valorB
+valorInvertido_B = valorA
+
+print("valor de A: ", valorA, " valor invertido: ", valorInvertido_A)
+print("valor de B: ", valorB, " valor invertido: ", valorInvertido_B)

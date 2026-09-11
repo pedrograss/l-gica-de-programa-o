@@ -1,0 +1,5 @@
+idade = int(input("Digite sua idade: "))
+
+resultado = (idade * 12)
+
+print("Você viveu ", resultado, " meses")

@@ -1,0 +1,6 @@
+m = int(input("Digite o valor em metros para converter em cm: "))
+
+cm = (m * 100)
+
+print(m, "m")
+print("Conversão de metros para centimetros: ", cm, "cm")

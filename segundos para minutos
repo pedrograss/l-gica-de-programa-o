@@ -1,0 +1,6 @@
+segundos = float(input("Digite os segundos: "))
+
+minutos = segundos / 60
+segundo = segundos % 60
+
+print(minutos, "minutos ", segundo, " segundos.")

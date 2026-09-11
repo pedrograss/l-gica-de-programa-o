@@ -1,0 +1,8 @@
+horasTrabalhadas = int(input("Digite suas horas trabalhadas: "))
+valorHora = float(input("Digite o valor que você ganha por hora: "))
+
+resultado = (horasTrabalhadas * valorHora)
+
+print("Horas trabalhadas: ", horasTrabalhadas)
+print("Valor por hora: ", valorHora)
+print("Salário Total(bruto): ", resultado)

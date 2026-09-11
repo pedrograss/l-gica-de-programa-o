@@ -1,0 +1,11 @@
+produto = int(input("Digite o valor do produto: "))
+percentual = int(input("Digite o percentual de aumento: "))
+
+calculo1 = (percentual + 100)
+calculo2 = (calculo1 / 100)
+aumento = (produto * calculo2)
+
+
+print("Valor do produto: ", produto)
+print("Percentual de aumento: ", calculo2)
+print("Aumento: ", aumento)

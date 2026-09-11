@@ -1,0 +1,11 @@
+valor = float(input("Digite o valor do produto: "))
+percentual = float(input("Digite o percentual de desconto do produto: "))
+
+
+percentualDois = (percentual / 100)
+valorDesconto = (valor * percentualDois)
+desconto = (valor - valorDesconto)
+
+print("Valor do produto: ", valor)
+print("Percentual de desconto: ", percentual)
+print("Desconto: ", desconto)

@@ -1,0 +1,8 @@
+salario = float(input("Digite seu salário atual: "))
+percentual = float(input("Digite o aumento em porcentagem: "))
+
+aumento = salario + (salario * percentual) / 100
+
+print("salário atual: ", salario)
+print("percentual: ", percentual)
+print("salário atual com aumento: ", aumento)

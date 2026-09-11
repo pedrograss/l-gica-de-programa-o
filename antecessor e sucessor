@@ -1,0 +1,8 @@
+numero = int(input("Digite um valor:"))
+
+antecessor = (numero - 1)
+sucessor = (numero + 1)
+
+print("Número: ", numero)
+print("Antecessor: ", numero)
+print("Sucessor: ", sucessor)

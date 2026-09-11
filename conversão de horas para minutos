@@ -1,0 +1,6 @@
+hora = int(input("Digite a hora sem minutos: "))
+
+minutos = (hora * 60)
+
+print("Hora:", hora)
+print("A conversão para minutos fica:", minutos)

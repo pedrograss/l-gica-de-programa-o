@@ -1,0 +1,6 @@
+l = int(input("Digite o valor do quadrado: "))
+
+valor = (l * 2)
+
+print("Valor: ", l)
+print("Área: ", valor)

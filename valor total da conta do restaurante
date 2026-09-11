@@ -1,0 +1,8 @@
+valor = float(input("Digite o valor da conta: "))
+
+taxa = 10
+
+valorTotal = (valor + taxa)
+
+print("Valor da conta: ", valor)
+print("Valor com taxa 10%: ", valorTotal)
